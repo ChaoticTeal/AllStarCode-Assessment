@@ -1,0 +1,156 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: #153854;
+	font-family: "Fira Sans", sans-serif;
+	color: white;
+	margin: 0;
+}
+
+h1
+{
+	font-family: "Bangers", cursive;
+	letter-spacing: 0.05em;
+	text-align: center;
+	font-size: 4em;
+}
+
+h2
+{
+	font-family: "Fira Sans", sans-serif;
+	text-align: center;
+}
+
+h3
+{
+	margin-top: 0;
+}
+
+hr
+{
+	width: 80%;
+	border: none;
+	border-top: 1px dotted white;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer
+{
+	margin-top: 15px;
+	padding: 15px;
+	background-color: #A6131B;
+	text-align: center;
+}
+
+.navbar
+{
+	background-color: #A6131B;
+	font-family: "Bangers", sans-serif;
+	font-size: 1.5em;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	top: 0;
+	padding: 0;
+	box-shadow: 0 1px 50px 1px black;
+	z-index: 100;
+}
+
+.navbar div
+{
+	flex: 3;
+	padding: 10px;
+}
+
+.navbar a
+{
+	flex: 2;
+	color: white;
+	padding: 27px;
+	text-decoration: none;
+}
+
+.navbar a:hover
+{
+	background-color: #C6070C;
+	color: black;
+}
+
+.content
+{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: auto;
+	margin-top: 120px;
+}
+
+.content p
+{
+	width: 80%;
+	margin: auto;
+}
+
+.bluebg
+{
+	margin-top: 15px;
+	padding: 15px;
+	background-color: #16416C;
+	align-items: center;
+	display: flex;
+}
+
+.carousel-caption
+{
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.attribution
+{
+	text-align: right;
+}
+
+#logo
+{
+	height: 50px;
+	margin: 10px;
+}
+
+#map
+{
+	flex: 60%;
+	height: 400px;
+	border: 0;
+}
+
+#sightingtext
+{
+	flex: 40%;
+	padding-right: 15px;
+	text-align: center;
+}
+
+#carousel
+{
+	width: 80%;
+	margin: auto;
+}
+
+#twitter
+{
+	flex: 55%;
+}
+
+#testimonials
+{
+	flex: 45%;
+}
